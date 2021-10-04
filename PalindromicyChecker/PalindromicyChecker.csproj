@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Authors>Stephen Ward</Authors>
+    <Copyright>Stephen Ward</Copyright>
+    <Description>The purpose of this application is to test the conjecture that lexicographically sorted matrices are comprised entirely of sets of rotated sequences that are in themselves or in pairs, palindromically isomorphic about the matrix median. For matrices with an odd number of rows this excludes the median itself.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\Ubuntu-Regular.ttf" />
+    <None Remove="Fonts\UFL.txt" />
+    <None Remove="Images\Grid_small.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\Ubuntu-Regular.ttf" />
+    <EmbeddedResource Include="Fonts\UFL.txt" />
+    <EmbeddedResource Include="Images\Grid_small.ico" />
+  </ItemGroup>
+
+</Project>

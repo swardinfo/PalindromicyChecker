@@ -1,0 +1,111 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Help.Text" xml:space="preserve">
+    <value>TLDR – Select Min Base b, Max Base b, Min n and Max n values. Select “Permutations only” to only test sets of permutations. Select the number of CPU cores you wish to allocate. Click Process. Click cancel at any time to stop testing.
+
+With Min Base b and Min n set to 2 and with Max Base b and Max n set to 10 and “Permutations only” left unchecked and using 6 CPU cores, on a PC with an Intel i5-8400 CPU @ 2.8GHz all tests take just over 50 minutes.
+
+
+The purpose of this application is to test the conjecture that lexicographically sorted matrices are comprised entirely of sets of rotated sequences that are in themselves or in pairs, palindromically isomorphic about the matrix median. For matrices with an odd number of rows this excludes the median itself.
+
+To run the test first select the minimum and maximum base values using Min Base b and Max Base b and the minimum and maximum n values using Min n and Max n. Next select the number of CPU cores you wish to allocate to running the check.
+
+Select “Permutations only” to only test sets of permutations. This will automatically select the same Min Base b and Max Base b values in Min n and Max n controls.
+
+Click Process to run the test. Click cancel at any time to stop at the current Base b and n values being tested. Note that as this is a portable application that does not save any data if the test is rerun it will do so from the beginning.
+
+As the application runs it will display the result of each matrix indicating if that matrix satisfies the conjecture with “Matrix is palindromic”. If at anytime a matrix fails the conjecture the application will stop the test and report which matrix failed. Additionally, a bar indicates the progress along with status showing the Base b and n values and the current x value of each matrix being tested.
+
+
+Following is the result format with an explanation.
+
+
+### Permutations for Base = b ###
+Base = #, n = #: Matrix is palindromic
+Maximum matrix number = #
+Median = #, median sequence = #, #, #
+n paired palindromic sets = #
+n paired self-palindromic sets = #
+Total pairs = #
+Total paired sets = #
+Total sets = #
+
+
+The first line indicates if only permutations were tested and only appears when “Permutations only” has been checked
+The next line indicates the Base b and n values of the current matrix being checked
+Next is the maximum number of the lexicographically sorted matrix i.e., b ^ n – 1
+For matrices in which the median is an integer the sequence and equivalent value in base 10 is shown
+Next is the list of each of the n paired palindromic and n paired self-palindromic sets (see definition below) along with the quantity of each.
+
+Total pairs, total paired sets and total sets are used to verify the PalindromicFunctions algorithms are checking all possible pairs. 
+Total pairs are the number of pairs of rotated sequences that are palindromically isomorphic about the matrix median
+Total paired sets are the total number of sets of rotated sequences that are completely paired
+Total sets are the total number of sets of rotated sequences
+
+
+Definitions
+
+n paired palindromic sets - two sets each containing all possible rotations of a sequence that together are palindromically isomorphic about the median of the matrix with n denoting the number of matching pairs of rotations between the two sets. Combined the pairings form a palindromic sequence.
+
+n paired self-palindromic set - a set containing all possible rotations of a sequence in which each rotation is palindromically isomorphic about the median of the matrix to another rotation within the same set with n denoting the number of matching pairs of rotations within the set. Combined the pairings form a palindromic sequence.
+
+The maximum values for Max Base b and Max n are currently set to 20. For those with the source code who wish to compile the application themselves this value is mMax which can be found and set in the constructor for Form1.</value>
+  </data>
+</root>
