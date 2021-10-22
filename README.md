@@ -1,8 +1,6 @@
 ## PalindromicyChecker
 
-Click on releases to download the zip folder containing the program. The program is portable and so does not require installation. Simply extract the executable file from the zip folder then right click it and select open from the menu.
-
-Note: currently only a version for Windows 7 64 bit and above is available and .NET 5.0 runtime must be installed on the system.
+Currently there is no binary releases.
 
 The program tests and provides a partial proof of the conjecture that all lexicographically sorted matrices (L-Matrix) for any set, x = 0 to (base b ^ n) – 1 where x, b and n are integers and b and n > 1 are comprised entirely of sets of rotated sequences that are in themselves or in pairs, palindromically isomorphic about the matrix median. This also holds true for all the permutations of any set base b and such a set is a palindromically distributed subset of an L-Matrix.
 
