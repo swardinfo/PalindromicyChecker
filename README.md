@@ -8,8 +8,9 @@ The program tests and provides a partial proof of the conjecture that all lexico
 
 The program is limited to testing for L-Matrices of base = 2 to 10 and n = 2 to 10. The program can test full L-Matrices or just permutations. On my PC the combined tests take about an hour.
 
-Accompanying documentation can be found here
+Accompanying documentation can be found at
 
+https://github.com/swardinfo/Documentation/tree/main/Palindromicity
 
 
 'Palindromic structures in lexicographically sorted matrices - Ver 1.0.docx' outlines the observations I've made and the seven conjectures of which I have derived. It also includes the results of running PalindromicyChecker.
