@@ -9,7 +9,7 @@ namespace PalindromicyChecker
     /// <summary>
     /// A set of functions to test if a matrix consists only of paired palindromic sequences and/or self palindromic pairs
     /// </summary>
-    public class PalindromicFunctions
+    internal class PalindromicFunctions
     {
         #region Methods
 

@@ -3,7 +3,7 @@
     /// <summary>
     /// A matrix number and its equivalent number sequence
     /// </summary>
-    public class NumberSequence
+    internal class NumberSequence
     {
         #region Constructor
 

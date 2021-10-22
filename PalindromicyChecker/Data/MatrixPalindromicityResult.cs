@@ -2,7 +2,7 @@
 
 namespace PalindromicyChecker
 {
-    public class MatrixPalindromicityResult
+    internal class MatrixPalindromicityResult
     {
         #region Constructor
 

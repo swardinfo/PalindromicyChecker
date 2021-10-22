@@ -7,7 +7,7 @@ namespace PalindromicyChecker
     /// <summary>
     /// A form to show help information to the user
     /// </summary>
-    public partial class HelpForm : Form
+    internal partial class HelpForm : Form
     {
         #region Constructors
 

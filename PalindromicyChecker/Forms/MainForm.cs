@@ -13,7 +13,7 @@ namespace PalindromicyChecker
     /// <summary>
     /// The main form of the application
     /// </summary>
-    public partial class MainForm : Form
+    internal partial class MainForm : Form
     {
         #region Private Members
 

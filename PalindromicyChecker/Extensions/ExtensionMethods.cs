@@ -5,7 +5,7 @@ namespace PalindromicyChecker
     /// <summary>
     /// Miscellaneous set of extension methods
     /// </summary>
-    public static class ExtensionMethods
+    internal static class ExtensionMethods
     {
         /// <summary>
         /// Extension to the array class, rotates the elements in an array a specified number to the left

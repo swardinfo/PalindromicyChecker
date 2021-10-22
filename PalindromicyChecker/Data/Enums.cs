@@ -3,7 +3,7 @@
     /// <summary>
     /// Specifies the type of palindromic set of sequences
     /// </summary>
-    public enum SetType
+    internal enum SetType
     {
         /// <summary>
         /// Default of none when initializing the type

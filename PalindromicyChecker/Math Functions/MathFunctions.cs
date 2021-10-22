@@ -5,7 +5,7 @@ namespace PalindromicyChecker
     /// <summary>
     /// A set of maths functions to check each matrix and its sequence sets
     /// </summary>
-    public static class MathFunctions
+    internal static class MathFunctions
     {
         /// <summary>
         /// Converts a long the equivalent 0 left padded sequence of characters

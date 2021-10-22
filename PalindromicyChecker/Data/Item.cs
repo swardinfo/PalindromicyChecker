@@ -3,7 +3,7 @@
     /// <summary>
     /// An item to store in a Combobox
     /// </summary>
-    public class Item
+    internal class Item
     {
         #region Constructor
 
