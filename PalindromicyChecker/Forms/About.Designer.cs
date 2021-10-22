@@ -42,7 +42,7 @@ namespace PalindromicyChecker
             this.About.Name = "About";
             this.About.ReadOnly = true;
             this.About.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.About.Size = new System.Drawing.Size(401, 363);
+            this.About.Size = new System.Drawing.Size(484, 361);
             this.About.TabIndex = 0;
             this.About.Text = resources.GetString("About.Text");
             // 
@@ -50,12 +50,12 @@ namespace PalindromicyChecker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(401, 363);
+            this.ClientSize = new System.Drawing.Size(484, 361);
             this.Controls.Add(this.About);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(417, 402);
+            this.MaximumSize = new System.Drawing.Size(500, 400);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(417, 402);
+            this.MinimumSize = new System.Drawing.Size(500, 400);
             this.Name = "AboutForm";
             this.Text = "About Palindromicy Checker";
             this.Shown += new System.EventHandler(this.AboutForm_Shown);

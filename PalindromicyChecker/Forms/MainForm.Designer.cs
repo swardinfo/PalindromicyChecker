@@ -66,7 +66,7 @@ namespace PalindromicyChecker
             // 
             // Process
             // 
-            this.Process.Location = new System.Drawing.Point(583, 47);
+            this.Process.Location = new System.Drawing.Point(584, 47);
             this.Process.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Process.Name = "Process";
             this.Process.Size = new System.Drawing.Size(85, 32);
@@ -79,7 +79,7 @@ namespace PalindromicyChecker
             // 
             this.MaxRadix.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.MaxRadix.FormattingEnabled = true;
-            this.MaxRadix.Location = new System.Drawing.Point(89, 48);
+            this.MaxRadix.Location = new System.Drawing.Point(90, 48);
             this.MaxRadix.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.MaxRadix.Name = "MaxRadix";
             this.MaxRadix.Size = new System.Drawing.Size(65, 28);
@@ -89,7 +89,7 @@ namespace PalindromicyChecker
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 22);
+            this.label1.Location = new System.Drawing.Point(26, 22);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(47, 20);
@@ -99,7 +99,7 @@ namespace PalindromicyChecker
             // PermutationsOnly
             // 
             this.PermutationsOnly.AutoSize = true;
-            this.PermutationsOnly.Location = new System.Drawing.Point(426, 51);
+            this.PermutationsOnly.Location = new System.Drawing.Point(427, 51);
             this.PermutationsOnly.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.PermutationsOnly.Name = "PermutationsOnly";
             this.PermutationsOnly.Size = new System.Drawing.Size(146, 24);
@@ -111,7 +111,7 @@ namespace PalindromicyChecker
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(186, 26);
+            this.label2.Location = new System.Drawing.Point(187, 26);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 20);
@@ -121,7 +121,7 @@ namespace PalindromicyChecker
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(99, 26);
+            this.label3.Location = new System.Drawing.Point(100, 26);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 20);
@@ -131,7 +131,7 @@ namespace PalindromicyChecker
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(263, 26);
+            this.label4.Location = new System.Drawing.Point(264, 26);
             this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(49, 20);
@@ -142,7 +142,7 @@ namespace PalindromicyChecker
             // 
             this.MaxN.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.MaxN.FormattingEnabled = true;
-            this.MaxN.Location = new System.Drawing.Point(251, 48);
+            this.MaxN.Location = new System.Drawing.Point(252, 48);
             this.MaxN.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.MaxN.Name = "MaxN";
             this.MaxN.Size = new System.Drawing.Size(65, 28);
@@ -153,7 +153,7 @@ namespace PalindromicyChecker
             // 
             this.MinN.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.MinN.FormattingEnabled = true;
-            this.MinN.Location = new System.Drawing.Point(173, 48);
+            this.MinN.Location = new System.Drawing.Point(174, 48);
             this.MinN.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.MinN.Name = "MinN";
             this.MinN.Size = new System.Drawing.Size(65, 28);
@@ -164,7 +164,7 @@ namespace PalindromicyChecker
             // 
             this.MinRadix.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.MinRadix.FormattingEnabled = true;
-            this.MinRadix.Location = new System.Drawing.Point(13, 48);
+            this.MinRadix.Location = new System.Drawing.Point(14, 48);
             this.MinRadix.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.MinRadix.Name = "MinRadix";
             this.MinRadix.Size = new System.Drawing.Size(65, 28);
@@ -173,7 +173,7 @@ namespace PalindromicyChecker
             // 
             // Cancel
             // 
-            this.Cancel.Location = new System.Drawing.Point(689, 47);
+            this.Cancel.Location = new System.Drawing.Point(690, 47);
             this.Cancel.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Cancel.Name = "Cancel";
             this.Cancel.Size = new System.Drawing.Size(85, 32);
@@ -204,7 +204,7 @@ namespace PalindromicyChecker
             // 
             // Help
             // 
-            this.Help.Location = new System.Drawing.Point(794, 47);
+            this.Help.Location = new System.Drawing.Point(795, 47);
             this.Help.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Help.Name = "Help";
             this.Help.Size = new System.Drawing.Size(85, 32);
@@ -215,7 +215,7 @@ namespace PalindromicyChecker
             // 
             // About
             // 
-            this.About.Location = new System.Drawing.Point(902, 47);
+            this.About.Location = new System.Drawing.Point(903, 47);
             this.About.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.About.Name = "About";
             this.About.Size = new System.Drawing.Size(85, 32);
@@ -228,7 +228,7 @@ namespace PalindromicyChecker
             // 
             this.CpuCores.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CpuCores.FormattingEnabled = true;
-            this.CpuCores.Location = new System.Drawing.Point(341, 48);
+            this.CpuCores.Location = new System.Drawing.Point(342, 48);
             this.CpuCores.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.CpuCores.Name = "CpuCores";
             this.CpuCores.Size = new System.Drawing.Size(65, 28);
@@ -237,7 +237,7 @@ namespace PalindromicyChecker
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(336, 22);
+            this.label5.Location = new System.Drawing.Point(337, 22);
             this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(77, 20);
@@ -292,7 +292,6 @@ namespace PalindromicyChecker
         private System.Windows.Forms.ComboBox MinN;
         private System.Windows.Forms.ComboBox MinRadix;
         private System.Windows.Forms.Button Cancel;
-        private System.Windows.Forms.Label CPUWarning;
         private System.Windows.Forms.Label Status;
         private System.Windows.Forms.ProgressBar ProgressBar;
         private System.Windows.Forms.Button Help;

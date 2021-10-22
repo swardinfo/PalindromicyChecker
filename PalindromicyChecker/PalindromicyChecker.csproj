@@ -10,15 +10,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Fonts\Ubuntu-Regular.ttf" />
-    <None Remove="Fonts\UFL.txt" />
-    <None Remove="Images\Grid_small.ico" />
+    <None Remove="Resources\Fonts\Ubuntu-Regular.ttf" />
+    <None Remove="Resources\Fonts\UFL.txt" />
+    <None Remove="Resources\Images\Grid_small.ico" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Fonts\Ubuntu-Regular.ttf" />
-    <EmbeddedResource Include="Fonts\UFL.txt" />
-    <EmbeddedResource Include="Images\Grid_small.ico" />
+    <EmbeddedResource Include="Resources\Fonts\Ubuntu-Regular.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\UFL.txt" />
+    <EmbeddedResource Include="Resources\Images\Grid_small.ico" />
   </ItemGroup>
 
 </Project>
