@@ -180,7 +180,7 @@ namespace PalindromicyChecker
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event for all Comboboxes
+        /// Handles the SelectedIndexChanged event for all ComboBoxes
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -218,7 +218,7 @@ namespace PalindromicyChecker
         #region Methods
 
         /// <summary>
-        /// Initialize the values in the min/max Comboboxes
+        /// Initialize the values in the min/max ComboBoxes
         /// </summary>
         private void InitializeComboBoxes()
         {
