@@ -8,7 +8,7 @@ The program is limited to testing for L-Matrices of base = 2 to 10 and n = 2 to 
 
 Accompanying documentation can be found at
 
-https://github.com/swardinfo/Documentation/tree/main/Palindromicity
+https://drive.google.com/drive/folders/1C798OdkDwf9hLUmWLSM4iMZe9QWenJLH
 
 
 'Palindromic structures in lexicographically sorted matrices - Ver 1.0.docx' outlines the observations I've made and the seven conjectures of which I have derived. It also includes the results of running PalindromicyChecker.
